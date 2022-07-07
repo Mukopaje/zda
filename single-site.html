@@ -1,0 +1,834 @@
+<!doctype html>
+<!--[if IE 9]> <html class="no-js ie9 fixed-layout" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js " lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Site Metas -->
+    <title>Awards - Responsive Website Gallery Template</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Material Design fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700,900" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.css">
+    
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="assets/css/colors.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <img class="preloader" src="assets/images/loader.gif" alt="">
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+    
+    <div id="wrapper">
+        <nav class="sidenav">
+            <ul class="list-unstyled main-menu">
+                <li class="text-right"><a href="#" id="nav-close"><i class="flaticon-error"></i></a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="pricing.html">Plans & Pricing</a></li>
+                <li><a href="login.html">Member Login</a></li>
+                <li><a href="#">Single Layouts</a>
+                    <ul class="list-unstyled">
+                        <li class="sub-nav"><a href="single-site.html">Single Site</a></li>
+                        <li class="sub-nav"><a href="single-agency.html">Single Agency</a></li>
+                        <li class="sub-nav"><a href="single-blog.html">Single Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Default Pages</a>
+                    <ul class="list-unstyled">
+                        <li class="sub-nav"><a href="page.html">Page Template</a></li>
+                        <li class="sub-nav"><a href="404.html">Not Found (404)</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="terms.html">Terms of Usage</a></li>
+            </ul>
+        </nav>
+
+        <div class="header" data-spy="affix" data-offset-top="190">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="awards.html">Awards</a></li>
+                            <li><a href="nominees.html">Nominees</a></li>
+                            <li><a href="agencies.html">Agencies</a></li>
+                            <li><a href="archives.html">Archives</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="search-menu hidden-sm">
+                                <form class="search-form">
+                                    <div class="form-group has-feedback">
+                                        <label for="search" class="sr-only">Search</label>
+                                        <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                                        <span class="flaticon-magnifying-glass form-control-feedback"></span>
+                                    </div>
+                                </form>
+                            </li>
+                            <li id="nav-expander" class="openmenu hidden-sm"><a href="#"><i class="flaticon-bars"></i></a></li>
+                            <li class="submit"><a href="submit.html">SUBMIT SITE</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav><!-- end nav -->
+        </div><!-- end header -->
+
+        <div class="section single-site">
+            <div class="container-fluid">
+                <div class="search-top clearfix">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <select class="selectpicker form-control" data-size="8" data-live-search="true" multiple title="Category">
+                                    <option data-tokens="web">Web & Interactive</option>
+                                    <option data-tokens="mobile">Mobile Apps</option>
+                                    <option data-tokens="health">Health & Medical</option>
+                                    <option data-tokens="religion">Religion</option>
+                                    <option data-tokens="sports">Sports</option>
+                                    <option data-tokens="events">Events</option>
+                                    <option data-tokens="technology">Technology</option>
+                                    <option data-tokens="personal">Personal Blog</option>
+                                    <option data-tokens="education">Education</option>
+                                    <option data-tokens="garden">Garden</option>
+                                    <option data-tokens="barber">Barber</option>
+                                    <option data-tokens="food">Food Drink</option>
+                                    <option data-tokens="automotive">Automotive</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <select class="selectpicker form-control" data-size="8" data-live-search="true" multiple title="Tags">
+                                    <option data-tokens="responsive">Responsive</option>
+                                    <option data-tokens="retina">Retina</option>
+                                    <option data-tokens="minimalist">Minimalist</option>
+                                    <option data-tokens="flat">Flat Design</option>
+                                    <option data-tokens="colorful">Colorful</option>
+                                    <option data-tokens="html5">HTML5</option>
+                                    <option data-tokens="smooth">Smooth Scroll</option>
+                                    <option data-tokens="commerce">e-Commerce</option>
+                                    <option data-tokens="social">Social Media</option>
+                                    <option data-tokens="icons">Icons</option>
+                                    <option data-tokens="texture">Texture</option>
+                                    <option data-tokens="font">Web Font</option>
+                                    <option data-tokens="retro">Retro</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <select class="selectpicker form-control" data-size="8" data-live-search="true" multiple title="Software">
+                                    <option data-tokens="wordpress">WordPress</option>
+                                    <option data-tokens="joomla">Joomla</option>
+                                    <option data-tokens="drupal">Drupal</option>
+                                    <option data-tokens="magento">Magento</option>
+                                    <option data-tokens="opencart">OpenCart</option>
+                                    <option data-tokens="html5">HTML5</option>
+                                    <option data-tokens="asp">ASP.NET</option>
+                                    <option data-tokens="custom">Custom (PHP)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <select class="selectpicker form-control" data-size="8" data-live-search="true" multiple title="Colors">
+                                    <option style="background: #800000; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Maroon</option>
+                                    <option style="background: #FF0000; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Red</option>
+                                    <option style="background: #FFA500; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Orange</option>
+                                    <option style="background: #FFFF00; color: #212121;border-left: 8px solid #fff; border-right:8px solid #fff;">Yellow</option>
+                                    <option style="background: #808000; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Olive</option>
+                                    <option style="background: #008000; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Green</option>
+                                    <option style="background: #800080; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Purple</option>
+                                    <option style="background: #FF00FF; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Fuchsia</option>
+                                    <option style="background: #00FF00; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Lime</option>
+                                    <option style="background: #008080; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Teal</option>
+                                    <option style="background: #00FFFF; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Aqua</option>
+                                    <option style="background: #0000FF; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Blue</option>
+                                    <option style="background: #000080; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Navy</option>
+                                    <option style="background: #000000; color: #fff;border-left: 8px solid #fff; border-right:8px solid #fff;">Black</option>
+                                    <option style="background: #808080; color: #212121;border-left: 8px solid #fff; border-right:8px solid #fff;">Gray</option>
+                                    <option style="background: #C0C0C0; color: #212121;border-left: 8px solid #fff; border-right:8px solid #fff;">Silver</option>
+                                    <option style="background: #FFFFFF; color: #212121;border-left: 8px solid #fff; border-right:8px solid #fff;">White</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <a href="#" class="btn btn-primary btn-block">SEACH</a>
+                        </div>
+                    </div>
+                </div><!-- end search-top -->
+
+                <div class="row-fluid">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="award-image entry">
+                            <a href="https://www.similaricons.com" target="new" rel="nofollow" title="">
+                                <img src="assets/images/uploads/award_04.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                    <div class="magni-desc">
+                                        <h4>Nominees</h4>
+                                        <p>November 21, 2016</p>
+                                    </div>
+                                </div><!-- end magnifier -->
+                            </a>
+                        </div><!-- end image -->
+
+                        <div class="site-single-share clearfix">
+                            <div class="pull-left">
+                                 <ul class="list-inline software_version">
+                                    <li>Software</li>
+                                    <li><a href="#"><i class="fa fa-wordpress"></i> WORDPRESS</a></li>
+                                </ul>
+                            </div><!-- end left -->
+                            <div class="pull-right">
+                                <ul class="list-inline cat_list">
+                                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i> Like</a></li>
+                                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i> Tweet</a></li>
+                                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i> Share</a></li>
+                                    <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i> Pin</a></li>
+                                </ul>
+                            </div><!-- end right -->
+                        </div><!-- end publisher -->
+                    </div><!-- end col -->
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="award-details awards-wrapper">
+                            <div class="site-publisher clearfix">
+                                <h4 class="site-title">The AIGA for Design &nbsp;&nbsp;<a href="https://www.similaricons.com" target="new" rel="nofollow"><i class="fa fa-link"></i></a></h4>
+                                <p>StartupLab is a launch pad for tech startups. Focused on helping with office space, funding and networking. Proin sollicitudin ornare luctus.</p>
+
+                                <p>Aliquam bibendum mi a velit lobortis, vitae aliquet erat rhoncus. Sed tempor diam eu posuere iaculis.</p>
+                            </div><!-- end publisher -->
+
+                            <div class="site-colors clearfix">
+                                <ul class="list-inline cat_list">
+                                    <li><a style="background: #4ac2c0;" href="#"></a></li>
+                                    <li><a style="background: #fc4446;" href="#"></a></li>
+                                    <li><a style="background: #22191c;" href="#"></a></li>
+                                    <li><a style="background: #ffffff;" href="#"></a></li>
+                                </ul>
+                            </div><!-- end site-colors -->
+
+                            <div class="site-tags clearfix">
+                                <ul class="list-inline cat_list">
+                                    <li class="active"><a href="#">WEB & INTERACTIVE</a></li>
+                                </ul>
+                            </div><!-- end site-tags -->
+
+                            <div class="site-tags clearfix">
+                                <ul class="list-inline cat_list">
+                                    <li><a href="#">HTML5</a></li>
+                                    <li><a href="#">WORDPRESS</a></li>
+                                    <li><a href="#">PORTFOLIO</a></li>
+                                    <li><a href="#">RESPONSIVE</a></li>
+                                </ul>
+                            </div><!-- end site-tags -->
+                        </div><!-- end details -->
+                    </div><!-- end col -->
+
+                    <div class="col-md-3 col-sm-6 m30">
+                        <div class="award-details awards-wrapper">
+                            <div class="site-publisher clearfix">
+                                <img src="assets/images/uploads/people_01.jpg" alt="" class="img-responsive img-circle">
+                                <a href="single-agency.html" title=""><h4>Egle Design</h4></a>
+                                <small>Web Agency INC.</small>
+                                <div class="site-desc clearfix">
+                                    <div class="site-vote">
+                                        <p>Design <small>60%</small></p>
+                                    </div><!-- end vote -->
+                                    <div class="site-vote">
+                                        <p>Creativity <small>78%</small></p>
+                                    </div><!-- end vote -->
+                                    <div class="site-vote">
+                                        <p>Usability <small>80%</small></p>
+                                    </div><!-- end vote -->
+                                    <div class="site-vote">
+                                        <p>Content <small>65%</small></p>
+                                    </div><!-- end vote -->
+                                    <div class="site-vote skore last-child">
+                                        <p>Total Score <small>70%</small></p>
+                                    </div><!-- end vote -->
+
+                                    <div class="like-button">
+                                        <p><a href="#"><i class="flaticon-heart"></i> 245</a></p>
+                                    </div>
+                                </div><!-- end row -->
+                            </div><!-- end publisher -->
+                        </div><!-- end details -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <div class="clearfix"></div>
+                <hr class="invis">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-button text-center">
+                            <div class="absolute-pager">
+                                <nav>
+                                    <ul class="pager">
+                                        <li><a href="#">Previous Site</a></li>
+                                        <li><a href="#">Next Site</a></li>
+                                    </ul>
+                                </nav>
+                            </div><!-- end left -->
+                        </div><!-- end button -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end section -->
+
+
+        <div class="section lb review-single">
+            <div class="container-fluid">
+                <div class="row clearfix">
+                    <div class="col-md-6">
+                        <div class="section-ab-title">
+                            <h4>Recent Sites</h4>
+                        </div>
+
+                        <div class="content">
+                            <div class="row list-items">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="site-wrapper">
+                                        <div class="award-image entry">
+                                            <a href="single-site.html" title="">
+                                                <img src="assets/images/uploads/award_01.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div><!-- end image -->
+
+                                        <div class="site-small-desc clearfix">  
+                                            <div class="pull-left">
+                                                <a href="single-site.html" title=""><h4>StartupLab</h4></a>
+                                                <p>By: <a href="single-agency.html" title="">StartupLab</a></p>
+                                            </div>
+                                            <div class="likebutton pull-right text-center">
+                                                <a href="#">331<br><i class="flaticon-heart"></i></a>
+                                            </div><!-- end pull-right -->
+                                        </div><!-- end desc -->
+                                    </div><!-- end site-wrapper -->
+                                </div><!-- end col -->
+
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="site-wrapper">
+                                        <div class="award-image entry">
+                                            <a href="single-site.html" title="">
+                                                <img src="assets/images/uploads/award_02.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div><!-- end image -->
+
+                                        <div class="site-small-desc clearfix">  
+                                            <div class="pull-left">
+                                                <a href="single-site.html" title=""><h4>Susa Ventures</h4></a>
+                                                <p>By: <a href="single-agency.html" title="">Dave Soderberg</a></p>
+                                            </div>
+                                            <div class="likebutton pull-right text-center">
+                                                <a href="#">167<br><i class="flaticon-heart"></i></a>
+                                            </div><!-- end pull-right -->
+                                        </div><!-- end desc -->
+                                    </div><!-- end site-wrapper -->
+                                </div><!-- end col -->
+
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="site-wrapper">
+                                        <div class="award-image entry">
+                                            <a href="single-site.html" title="">
+                                                <img src="assets/images/uploads/award_03.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div><!-- end image -->
+
+                                        <div class="site-small-desc clearfix">  
+                                            <div class="pull-left">
+                                                <a href="single-site.html" title=""><h4>Measponte</h4></a>
+                                                <p>By: <a href="single-agency.html" title="">Awd Agency</a></p>
+                                            </div>
+                                            <div class="likebutton pull-right text-center">
+                                                <a href="#">667<br><i class="flaticon-heart"></i></a>
+                                            </div><!-- end pull-right -->
+                                        </div><!-- end desc -->
+                                    </div><!-- end site-wrapper -->
+                                </div><!-- end col -->
+
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="site-wrapper">
+                                        <div class="award-image entry">
+                                            <a href="single-site.html" title="">
+                                                <img src="assets/images/uploads/award_04.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div><!-- end image -->
+
+                                        <div class="site-small-desc clearfix">  
+                                            <div class="pull-left">
+                                                <a href="single-site.html" title=""><h4>AIGA Design</h4></a>
+                                                <p>By: <a href="single-agency.html" title="">W&CO</a></p>
+                                            </div>
+                                            <div class="likebutton pull-right text-center">
+                                                <a href="#">761<br><i class="flaticon-heart"></i></a>
+                                            </div><!-- end pull-right -->
+                                        </div><!-- end desc -->
+                                    </div><!-- end site-wrapper -->
+                                </div><!-- end col -->
+
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="site-wrapper">
+                                        <div class="award-image entry">
+                                            <a href="single-site.html" title="">
+                                                <img src="assets/images/uploads/award_06.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div><!-- end image -->
+
+                                        <div class="site-small-desc clearfix">  
+                                            <div class="pull-left">
+                                                <a href="single-site.html" title=""><h4>Locomotive</h4></a>
+                                                <p>By: <a href="single-agency.html" title="">Locomotive</a></p>
+                                            </div>
+                                            <div class="likebutton pull-right text-center">
+                                                <a href="#">125<br><i class="flaticon-heart"></i></a>
+                                            </div><!-- end pull-right -->
+                                        </div><!-- end desc -->
+                                    </div><!-- end site-wrapper -->
+                                </div><!-- end col -->
+
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="site-wrapper">
+                                        <div class="award-image entry">
+                                            <a href="single-site.html" title="">
+                                                <img src="assets/images/uploads/award_07.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div><!-- end image -->
+
+                                        <div class="site-small-desc clearfix">  
+                                            <div class="pull-left">
+                                                <a href="single-site.html" title=""><h4>Serio Verify</h4></a>
+                                                <p>By: <a href="single-agency.html" title="">Umwelt A/S</a></p>
+                                            </div>
+                                            <div class="likebutton pull-right text-center">
+                                                <a href="#">331<br><i class="flaticon-heart"></i></a>
+                                            </div><!-- end pull-right -->
+                                        </div><!-- end desc -->
+                                    </div><!-- end site-wrapper -->
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                        </div><!-- end content -->
+                    </div><!-- end col -->
+
+                    <div class="col-md-6">
+                        <div class="section-ab-title">
+                            <h4>Reviews</h4>
+                        </div>
+
+                        <div class="content">
+                            <div class="comments-list">
+                                <div class="media">
+                                    <p class="pull-right"><small>4 days ago</small></p>
+                                    <a class="media-left" href="#">
+                                        <img src="assets/images/uploads/people_12.jpg" alt="" class="img-circle">
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading user_name">Baltej Singh</h4>
+
+                                        <h5>Nice design good work!</h5>
+
+                                        <p>Marfa eiusmod Pinterest in do umami readymade swag. Selfies iPhone Kickstarter, drinking vinegar jean.</p>
+
+                                        <div class="comment-review clearfix">
+                                            <div class="row">
+                                                <div class="col-md-12 review-wrap">
+                                                    <div class="form-group clearfix">
+                                                        <div class="pull-left">
+                                                            <label>Design</label>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <div class="rating">
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star-o"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12 review-wrap">
+                                                    <div class="form-group clearfix">
+                                                        <div class="pull-left">
+                                                            <label>Creativity</label>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <div class="rating">
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12 review-wrap">
+                                                    <div class="form-group clearfix">
+                                                        <div class="pull-left">
+                                                            <label>Usability</label>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <div class="rating">
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12 review-wrap">
+                                                    <div class="form-group clearfix">
+                                                        <div class="pull-left">
+                                                            <label>Content</label>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <div class="rating">
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star-o"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- end comment-review -->
+                                    </div>
+                                </div>
+
+                                <div class="media">
+                                    <p class="pull-right"><small>5 days ago</small></p>
+                                    <a class="media-left" href="#">
+                                        <img src="assets/images/uploads/people_11.jpg" alt="" class="img-circle">
+                                    </a>
+                                    <div class="media-body">
+
+                                        <h4 class="media-heading user_name">John Cooper</h4>
+
+                                        <h5>Unique concept and clean codes!</h5>
+
+                                        <p>Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko tempor duis single-origin coffee. Banksy, elit small.</p>
+
+                                        <div class="comment-review clearfix">
+                                            <div class="row">
+                                                <div class="col-md-12 review-wrap">
+                                                    <div class="form-group clearfix">
+                                                        <div class="pull-left">
+                                                            <label>Design</label>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <div class="rating">
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star-o"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12 review-wrap">
+                                                    <div class="form-group clearfix">
+                                                        <div class="pull-left">
+                                                            <label>Creativity</label>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <div class="rating">
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star-o"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star-o"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12 review-wrap">
+                                                    <div class="form-group clearfix">
+                                                        <div class="pull-left">
+                                                            <label>Usability</label>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <div class="rating">
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12 review-wrap">
+                                                    <div class="form-group clearfix">
+                                                        <div class="pull-left">
+                                                            <label>Content</label>
+                                                        </div>
+                                                        <div class="pull-right">
+                                                            <div class="rating">
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star"></i></a>
+                                                                <a href="#" class="active"><i class="fa fa-star-o"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- end comment-review -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <form class="contact-form search-top">
+                                <div class="row">
+                                    <div class="col-md-12 review-wrap">
+                                        <div class="form-group clearfix">
+                                            <div class="pull-left">
+                                                <label>Design</label>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="rating">
+                                                    <a data-toggle="tooltip" data-placement="top" title="Terrible" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Poor" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Average" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Very Good" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Perfect!" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 review-wrap">
+                                        <div class="form-group clearfix">
+                                            <div class="pull-left">
+                                                <label>Creativity</label>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="rating">
+                                                    <a data-toggle="tooltip" data-placement="top" title="Terrible" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Poor" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Average" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Very Good" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Perfect!" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 review-wrap">
+                                        <div class="form-group clearfix">
+                                            <div class="pull-left">
+                                                <label>Usability</label>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="rating">
+                                                    <a data-toggle="tooltip" data-placement="top" title="Terrible" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Poor" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Average" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Very Good" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Perfect!" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 review-wrap">
+                                        <div class="form-group clearfix">
+                                            <div class="pull-left">
+                                                <label>Content</label>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="rating">
+                                                    <a data-toggle="tooltip" data-placement="top" title="Terrible" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Poor" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Average" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Very Good" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                    <a data-toggle="tooltip" data-placement="top" title="Perfect!" href="javascript:void(0)"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" placeholder="Full Name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" placeholder="Email">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="phone" placeholder="Title of your review:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <textarea placeholder="Add full review here.." class="form-control"></textarea>
+                                        <button class="btn btn-primary" type="submit">Submit Review</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div><!-- end content -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end section -->
+
+        <div class="section bb">
+            <div class="container">
+                <a href="#">
+                <div class="row callout">
+                    <div class="col-md-4 text-center">
+                        <h3><sup>$</sup>49.99</h3>
+                        <h4>Pro Submissions will be charged</h4>
+                    </div><!-- end col -->
+
+                    <div class="col-md-8">
+                        <p class="lead">Your Agency/Designer profile will be added to our "Agencies" directory as well. </p>
+                    </div>
+                </div><!-- end row -->
+                </a>
+            </div><!-- end container -->
+        </div><!-- end section -->
+
+        <div class="footer section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="text-widget">
+                            <h4>Submit Your Site</h4>
+                            <p>You can submit your website at "Awards" and get a chance to attract hundreds of hourly unique visitors around the world, which includes web designers, app developers and superb agencies.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="awards.html">Awards</a></li>
+                            <li><a href="nominees.html">Nominees</a></li>
+                            <li><a href="agencies.html">Agencies</a></li>
+                            <li><a href="themes.html">Themes</a></li>
+                        </ul><!-- end list -->
+                    </div><!-- end col -->
+
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <ul class="list-unstyled">
+                            <li><a href="page.html">Page Template</a></li>
+                            <li><a href="404.html">Not Found (404)</a></li>
+                            <li><a href="archives.html">Archives</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="terms.html">Terms of Usage</a></li>
+                        </ul><!-- end list -->
+                    </div><!-- end col -->
+
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <ul class="list-unstyled">
+                            <li><a href="#">2016 - 2017 Judgets</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Usage</a></li>
+                            <li><a href="#">About & Contact</a></li>
+                            <li><a href="#">Pricing & Plans</a></li>
+                        </ul><!-- end list -->
+                    </div><!-- end col -->
+
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end footer -->
+
+        <div class="copyrights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <img src="assets/images/flogo.png" alt="" class="img-responsive">
+                        <p>2010 - 2017 &copy;Awards Graphic Design Solutions INC. All rights reserved.</p>
+                        <ul class="list-inline">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Google+</a></li>
+                        </ul>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end copyrights -->
+    </div><!-- end wrapper -->
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <script src="assets/js/animate.js"></script>
+    <script src="assets/js/navgoco.js"></script>
+    <script src="assets/js/bootstrap-select.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
